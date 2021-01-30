@@ -1,0 +1,15 @@
+{
+	"type":"record",
+	"namespace":"com.fretron.firstAvroSchema",	
+	"name":"User",	
+	"doc":"first avro schema",
+	"fields":[
+		{"name":"id", "type":"int"},
+		{"name":"name", "type":"string"},
+		{"name":"email", "type":["null","string"]}
+
+	]  
+
+
+
+}
